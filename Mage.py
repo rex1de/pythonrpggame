@@ -13,7 +13,7 @@ class Mage(Unit):   # наследование класса Unit, изменен
         else:
             character.take_damage(self.damage)
             self.mana -= 15
-            print(f'{self.name} ударил {character.name}: нанесено урона: {round(self.damage - character.defense, 1)}, здоровье: {character.health}')
+            print(f'{self.name} ударил {character.name}: нанесено урона: {self.damage - character.defense}, здоровье {character.name}: {character.health}')
         
     def rest(self):
         self.stamina += 15

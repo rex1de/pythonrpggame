@@ -11,7 +11,7 @@ class Archer(Unit):    # наследование класса Unit, измен�
         else:
             character.take_damage(self.damage)
             self.arrows -= 1
-            print(f'{self.name} ударил {character.name}: нанесено урона: {round(self.damage - character.defense, 1)}, здоровье: {character.health}')
+            print(f'{self.name} ударил {character.name}: нанесено урона: {self.damage - character.defense}, здоровье: {character.health}')
         if self.arrows == 0:
             self.rest()
         

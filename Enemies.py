@@ -24,7 +24,7 @@ class Monster:
             print(f'{character.name} защитился от удара')
         else:
             character.take_damage(self.damage)
-            print(f'{self.name} ударил {character.name}: нанесено урона: {round(self.damage - character.defense, 1)}, здоровье {character.name}: {character.health}')
+            print(f'{self.name} ударил {character.name}: нанесено урона: {self.damage - character.defense}, здоровье {character.name}: {character.health}')
             
     def death(self, character):
         pass

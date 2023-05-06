@@ -68,7 +68,6 @@ mage = Mage('John')
 warrior = Warrior('Liam')
 ogre = Ogre('Огр', 3)
 run = True
-
 while run:
     choose = int(input('Куда отправимся? 1. На арену 2. Драться с монстрами 3. В магазин 4. Выход из игры \n'))
     if choose == 1:
