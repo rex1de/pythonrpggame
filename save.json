@@ -1,0 +1,59 @@
+{
+    "name": "",
+    "spec": "warrior",
+    "money": 10000,
+    "lvl": 1,
+    "exp": 0,
+    "needed_exp": 1000,
+    "inventory": [
+        [
+            "",
+            1
+        ],
+        [
+            "",
+            1
+        ],
+        [
+            "",
+            1
+        ],
+        [
+            "",
+            1
+        ],
+        [
+            "",
+            1
+        ],
+        [
+            "",
+            1
+        ],
+        [
+            "",
+            1
+        ],
+        [
+            "",
+            1
+        ],
+        [
+            "",
+            1
+        ]
+    ],
+    "equipment": [
+        ""
+    ],
+    "health": 100,
+    "damage": 25,
+    "defense": 5,
+    "stamina": 100,
+    "mana": 0,
+    "is_forest": false,
+    "is_arena": false,
+    "x": 551,
+    "y": 180,
+    "trees": []
+}
